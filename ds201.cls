@@ -104,7 +104,7 @@
 
 \math@define@key{
   title = {
-    default = {《数值计算方法训练》},
+    default = {《数据分析实践》},
   },
   sub-title = {
     default = {实习报告},
@@ -169,7 +169,6 @@
 % \newcommand{\粗体}{\bfseries}
 % \newcommand{\斜体}{\itshape}
 
-
 % 设置章节样式
 \ctexset{
   % 需要使用ctexart文类，否则报错键不存在
@@ -184,7 +183,7 @@
 		name = {,、},
 		% number用于设置章节编号数字输出格式
 		% 输出section编号为中文
-		number = \chinese{section},
+		number = 实验\chinese{section},
 		% beforeskip用于设置章节标题前的垂直间距
 		% ex为当前字号下字母x的高度
 		% 基础高度为1.0ex，可以伸展到1.2ex，也可以收缩到0.8ex
@@ -205,7 +204,8 @@
 		aftername = \hspace{0pt}
   },
   subsubsection = {
-    number = \arabic{subsubsection},
+    name = {,.{ } },
+    number = \alph{subsubsection},
     % 黑体小四
     format+ = \zihao{-4} \songti \raggedright,
 		beforeskip = 1.0ex plus 0.2ex minus .2ex,
@@ -225,7 +225,7 @@
 
 % 页眉
 \pagestyle{fancy}
-\lhead{课程名称：数值计算方法训练}
+\lhead{课程名称：数据分析实践}
 \chead{姓名：\math@student}
 \rhead{学号：\math@student@id}
 \setlength{\headheight}{13pt}
@@ -266,3 +266,4 @@
   \setcounter{page}{1}
 }
 
+\renewcommand{\contentsname}{{\hfill \zihao{3} \bfseries 目\quad 录 \hfill}}

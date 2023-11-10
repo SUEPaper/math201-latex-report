@@ -1,4 +1,4 @@
-# 《数值计算方法训练》课程报告模板
+# 《数据科学实践》课程报告模板
 
 > The repo is forked from [Asterisci/XJTU-latex-report](https://github.com/Asterisci/XJTU-latex-report)
 
@@ -9,7 +9,7 @@
 
 1. 如果你懂git和GitHub，我相信你可以自己解决，还可以进行文档的版本管理。
 2. 如果你不懂git和Github，我强烈推荐你学一下，这个是全世界软件开发工程师每天必备的生存技能。
-3. 如果你实在不想学习，Math201这门课需要自学的东西太多了，你就是想摆烂。OK, 我们提供如下下载教程。
+3. 如果你实在不想学习，你就是想摆烂。OK, 我们提供如下下载教程。
 ![下载教程](./Readme.png)
 
 ## 模板使用教程
